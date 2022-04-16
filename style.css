@@ -57,23 +57,34 @@ html, body{
     display: flex;
     height: 700px; 
     flex-grow: 1; 
-    background-color: aqua; 
+    background-color: rgb(255, 0, 212); 
     flex-direction: column; 
     align-items: center; 
-    justify-content: space-around; 
+    justify-content: left; 
+}  
+
+.hi{ 
+    flex-grow: 2; 
+    justify-content: center; 
+    font-size: xx-large; 
 } 
 
+.mail{ 
+    flex-grow: 1;
+} 
+
+.socials{ 
+    flex-grow: 1;
+}
 .propic{ 
-    display: flex; 
-    height: 700px; 
-    flex-grow:1; 
+    height: 700px;  
+    flex-grow: 1; 
     background: url(./assets/Immagine\ 2022-04-11\ 180153.jpg); 
     border-radius: 15%; 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center;
 }
-
 
 .aboutme{
     background-color: rgb(255, 255, 255); 
