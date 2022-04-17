@@ -69,26 +69,33 @@ html, body{
     font-size: xx-large; 
 } 
 
-.mail{ 
-    flex-grow: 2; 
+.mailcontainer{ 
+    
     background-color: #914d91; 
-    color: white;  
-    width: 20%; 
     text-align: center;  
-    align-items: center;
-} 
+    align-items: center; 
+    padding: 20px;
+}  
+
+.mail{ 
+    color: white;  
+    text-decoration: none; 
+    font-size: large; 
+    margin: 10px;
+}
 
 .socials{ 
-    flex-grow: 1;
+    flex-grow: 1; 
+    padding-top: 200px;
 }
 .propic{ 
     height: 700px;  
     flex-grow: 1; 
     background: url(./assets/Immagine\ 2022-04-11\ 180153.jpg); 
     border-radius: 15%; 
-    background-size: contain; 
-    background-repeat: no-repeat; 
-    background-position: center;
+    background-size: cover; 
+    background-position: center center; 
+    padding-bottom: 20px;
 }
 
 .aboutme{
@@ -98,20 +105,22 @@ html, body{
     width: 100%; 
     flex-direction: row; 
     align-items: center; 
-    justify-content: center;
+    justify-content: center; 
+    padding: 50px;
 }  
 
 .background{ 
     background-color: rgba(47, 47, 153, 0); 
     font-size: large; 
-    flex-grow: 1;
+    display: inline-block; 
+    margin: 100px;
 }
 
 .skills{ 
     
     background-color: rgba(0, 128, 0, 0); 
     font-size: large; 
-    flex-grow: 1;
+    display: inline-block;
 }
 
 .threephotos{ 
