@@ -115,28 +115,31 @@ html, body{
 
 .aboutme{
     background-color: rgb(255, 255, 255); 
-    height: 350px; 
+    height: fit-content; 
     display: flex; 
     width: 100%; 
     flex-direction: row; 
     align-items: center; 
-    justify-content: center; 
-    padding: 50px;
+    justify-content: space-around; 
+    /* padding: 50px;  */
+    flex-wrap: wrap;
 }  
 
 .background{ 
-    background-color: rgba(47, 47, 153, 0); 
-    font-size: large; 
-    display: inline-block; 
-    margin: 100px;
+    background-color: rgba(47, 47, 153, 0);  
+    height: fit-content;
+    font-size: large;  
+    margin: 100px; 
+    width: 100vh;
 }
 
 .skills{ 
     
-    background-color: rgba(0, 128, 0, 0); 
-    font-size: large; 
-    display: inline-block; 
-    padding-right: 100px;
+    background-color: rgba(0, 128, 0, 0);  
+    height: fit-content;
+    font-size: large;  
+    padding-right: 100px; 
+    width: 20vh;
 }
 
 .threephotos{ 
@@ -147,33 +150,27 @@ html, body{
     flex-direction: row; 
     align-items: center; 
     justify-content:space-evenly; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
+    padding-top: 20vh;
 } 
 
 .frame1{ 
-    height: 200px;
+    height: 35vh; 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
     border-radius: 20%; 
-    margin: 20px;
+    /* margin: 20px; */
 } 
 
-.frame2{ 
-    height: 200px;
+.img1{ 
+    height: 30vh; 
+    width: 30vw;
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
     border-radius: 20%; 
-    margin: 20px;
-}
-
-.img1{ 
-    height: 200px;
-    background-size: contain; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-    border-radius: 20%;
+    min-width: 150px;
 } 
 
 .exps{ 
