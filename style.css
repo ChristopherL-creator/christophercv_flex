@@ -7,6 +7,13 @@ html, body{
     font-family: 'roboto', sans-serif;
 } 
 
+@media screen and (max-width: 480px) { 
+    
+    .hi{ 
+        font-size: medium; 
+    } 
+}
+
 .navmenu{ 
     width: 100%; 
     height: fit-content;
@@ -170,7 +177,7 @@ html, body{
     background-repeat: no-repeat; 
     background-position: center; 
     border-radius: 20%; 
-    min-width: 150px;
+    min-width: 200px;
 } 
 
 .exps{ 
