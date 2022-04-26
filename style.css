@@ -9,9 +9,13 @@ html, body{
 
 @media screen and (max-width: 480px) { 
     
-    .hi{ 
-        font-size: medium; 
+    h1{ 
+        font-size: x-large; 
     } 
+
+    .words{ 
+        padding-left: 40px !important;
+    }
 }
 
 .navmenu{ 
